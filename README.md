@@ -39,22 +39,20 @@ htdocs/
 
 ## 📦 Installation
 
-1. Clone this repository:
+1. Clone this repository: `git clone https://github.com/altxxr0/EdCore.git`
 
-`git clone https://github.com/altxxr0/EdCore.git`
-Upload the htdocs folder to your web server (e.g., XAMPP, 000webhost, InfinityFree).
+2. Upload the htdocs folder to your web server (e.g., XAMPP, 000webhost, InfinityFree).
 
-Make sure PHP is enabled and file permissions allow reading of the subjects/ directory.
+3. Make sure PHP is enabled and file permissions allow reading of the subjects/ directory.
 
-Open your browser and go to `http://localhost` or your hosting domain (e.g., https://edcore.rf.gd/).
+4. Open your browser and go to `http://localhost` or your hosting domain (e.g., https://edcore.rf.gd/).
 
 🧩 Customization
-To add subjects, create folders inside the subjects/ directory.
-
+To add subjects, create folders inside the `../resources/files` directory.
 Place PDF, DOCX, PPTX, or any resource files within those folders.
 
 📌 Notes
-This project is currently a prototype and not recommended for production without additional security layers.
+> This project is currently a prototype and not recommended for production without additional security layers.
 Copyrighted materials from STI College were removed.
 
 ---
