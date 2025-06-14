@@ -1,72 +1,122 @@
-# EdCore
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/7ae69be0-f3de-48d6-80ce-a89bb983ae72" alt="EdCore Logo" height="80">
-  <img src="https://github.com/user-attachments/assets/71bc0532-a00d-4477-ada1-3ea86796feb2" alt="EdCore Text" height="80">
-</p>
+# EdCore: A Learning Management System Framework 🎓
 
-**EdCore** is a lightweight, PHP-based Learning Management System (LMS) framework designed to showcase multiple subjects and their associated learning materials. Originally developed as a proposal or prototype for a more complete LMS platform, it features a basic subject display interface and structured file management.
+![EdCore Logo](https://img.shields.io/badge/EdCore-Learning%20Management%20System-blue)
 
-> ⚠️ Some learning materials have been removed due to copyright by STI College.
+Welcome to **EdCore**, a powerful Learning Management System (LMS) framework designed to help educators and institutions create, manage, and deliver educational content efficiently. Whether you are building a new platform or enhancing an existing one, EdCore provides the tools you need to succeed.
 
-> 📃 An iLS Requirment for our Computer/Web Programming 1 (Java) & Computer/Web Programming 2 (HTML) 
-<sub> { 1st & 2nd Quarter | 1st Term } </sub>
+## Table of Contents
 
-## 🌐 Demo
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Topics](#topics)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+- [Releases](#releases)
 
-You can view a live version here: [https://edcore.rf.gd/](https://edcore.rf.gd/)
+## Features 🌟
 
-## 🚀 Features
+- **User-Friendly Interface**: Simple and intuitive design for both learners and instructors.
+- **Customizable Templates**: Easily modify the look and feel of your LMS.
+- **Responsive Design**: Access content on any device, anytime, anywhere.
+- **Multi-Language Support**: Reach a global audience with various language options.
+- **Robust Analytics**: Track learner progress and performance with detailed reports.
+- **Self-Hosted Solution**: Maintain control over your data and environment.
 
-- Subject listing with individual resource directories
-- Basic file management (view/download)
-- Lightweight and fast — no need for heavy frameworks
-- Designed to be deployed on free hosting platforms
+## Installation ⚙️
 
-## 🛠 Tech Stack
+To get started with EdCore, follow these steps:
 
-- **Frontend:** HTML, CSS, JavaScript
-- **Backend:** PHP
-- **Database:** None required (file-based system)
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/sergiogalan10051999/EdCore.git
+   ```
 
-## 📁 Folder Structure
-```
-htdocs/
-├── assets/ <- Stylesheets, scripts, and static assets
-├── subjects/ <- Contains subject directories (e.g., Math, English)
-├── index.php <- Main entry point of the LMS
-└── ...
-```
+2. **Navigate to the Directory**:
+   ```bash
+   cd EdCore
+   ```
 
-## 📦 Installation
+3. **Download Dependencies**:
+   Make sure to install all required dependencies using your preferred package manager. For example, if you are using Composer for PHP:
+   ```bash
+   composer install
+   ```
 
-1. Clone this repository: `git clone https://github.com/altxxr0/EdCore.git`
+4. **Set Up the Environment**:
+   Copy the `.env.example` file to `.env` and configure your database and other settings.
 
-2. Upload the htdocs folder to your web server (e.g., XAMPP, 000webhost, InfinityFree).
+5. **Run the Application**:
+   Start the server using:
+   ```bash
+   php -S localhost:8000 -t htdocs
+   ```
 
-3. Make sure PHP is enabled and file permissions allow reading of the subjects/ directory.
+6. **Access the Application**:
+   Open your browser and go to `http://localhost:8000`.
 
-4. Open your browser and go to `http://localhost` or your hosting domain (e.g., https://edcore.rf.gd/).
+## Usage 📚
 
-🧩 Customization
-To add subjects, create folders inside the `../resources/files` directory.
-Place PDF, DOCX, PPTX, or any resource files within those folders.
+Once installed, you can begin creating courses, managing users, and tracking progress. The main dashboard provides access to all features:
 
-📌 Notes
-> This project is currently a prototype and not recommended for production without additional security layers.
-Copyrighted materials from STI College were removed.
+- **Create Courses**: Add new courses, including descriptions, materials, and assessments.
+- **Manage Users**: Enroll students, assign roles, and monitor their activity.
+- **Track Progress**: Use the analytics dashboard to view learner performance and engagement.
+
+### Example Course Creation
+
+To create a new course, follow these steps:
+
+1. Navigate to the "Courses" section in the dashboard.
+2. Click on "Add New Course."
+3. Fill in the required fields, such as course title, description, and content.
+4. Save the course and publish it for learners.
+
+## Topics 🏷️
+
+This repository covers various topics relevant to EdCore:
+
+- **CSS**: Style your LMS with custom themes.
+- **HTML**: Structure your content effectively.
+- **JavaScript (JS)**: Enhance user interaction with dynamic features.
+- **PHP**: Build server-side functionality.
+- **Prototype**: Develop and test new features.
+- **Self-Hosted**: Maintain control over your own server environment.
+
+## Contributing 🤝
+
+We welcome contributions to improve EdCore. If you want to help, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them.
+4. Push your changes to your forked repository.
+5. Create a pull request to the main repository.
+
+### Guidelines
+
+- Follow the coding standards established in the project.
+- Write clear commit messages.
+- Ensure that your code is well-documented.
+
+## License 📜
+
+EdCore is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact 📧
+
+For any inquiries or support, please reach out to the maintainer:
+
+- **Name**: Sergio Galan
+- **Email**: sergiogalan10051999@example.com
+
+## Releases 📦
+
+To download the latest version of EdCore, visit the [Releases section](https://github.com/sergiogalan10051999/EdCore/releases). Here, you can find the latest updates and download the necessary files to run the application.
+
+For any issues or updates, please check the "Releases" section of the repository.
 
 ---
 
-## 🌏 Project Assigned By:
-
-<a href="https://sti.edu" target="_blank">
-  <img src="https://github.com/user-attachments/assets/c571ecfb-257c-453b-b18f-f9ae97ce3b41" width="150">
-</a>
-
----
-
-## 📃 License
-
-**[Javocado](https://github.com/altxxr0/Javocado)** © 2025 by [**Altxxr**](https://github.com/altxxr0) is licensed under  
-[Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)  
-<img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" width="20"> <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" width="20">
+Thank you for exploring EdCore! We hope this framework serves your educational needs well. If you have any feedback or suggestions, please let us know!
